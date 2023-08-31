@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.dfki.mlt</groupId>
+  <artifactId>openccg</artifactId>
+  <versioning>
+    <release>dfki-0.9.8</release>
+    <versions>
+      <version>dfki-0.9.8</version>
+    </versions>
+    <lastUpdated>20230831094148</lastUpdated>
+  </versioning>
+</metadata>
