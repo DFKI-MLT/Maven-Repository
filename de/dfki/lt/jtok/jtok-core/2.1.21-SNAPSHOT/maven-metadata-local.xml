@@ -3,7 +3,7 @@
   <groupId>de.dfki.lt.jtok</groupId>
   <artifactId>jtok-core</artifactId>
   <versioning>
-    <lastUpdated>20230914090151</lastUpdated>
+    <lastUpdated>20230914123915</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,24 +11,24 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>2.1.21-SNAPSHOT</value>
-        <updated>20230914090151</updated>
+        <updated>20230914123915</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>2.1.21-SNAPSHOT</value>
-        <updated>20230914090151</updated>
+        <updated>20230914123915</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>2.1.21-SNAPSHOT</value>
-        <updated>20230914090151</updated>
+        <updated>20230914123915</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>2.1.21-SNAPSHOT</value>
-        <updated>20230914090151</updated>
+        <updated>20230914123915</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
