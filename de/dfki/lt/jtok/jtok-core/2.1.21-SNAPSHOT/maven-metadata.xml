@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.dfki.lt.jtok</groupId>
+  <artifactId>jtok-core</artifactId>
+  <versioning>
+    <lastUpdated>20230915132022</lastUpdated>
+    <snapshot>
+      <timestamp>20230915.132022</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.21-20230915.132022-1</value>
+        <updated>20230915132022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.1.21-20230915.132022-1</value>
+        <updated>20230915132022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.1.21-20230915.132022-1</value>
+        <updated>20230915132022</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>2.1.21-20230915.132022-1</value>
+        <updated>20230915132022</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.1.21-SNAPSHOT</version>
+</metadata>
