@@ -3,10 +3,10 @@
   <groupId>de.dfki.mlt</groupId>
   <artifactId>openccg</artifactId>
   <versioning>
-    <release>dfki-0.9.8</release>
+    <release>dfki-0.9.9</release>
     <versions>
-      <version>dfki-0.9.8</version>
+      <version>dfki-0.9.9</version>
     </versions>
-    <lastUpdated>20230831094148</lastUpdated>
+    <lastUpdated>20230915092852</lastUpdated>
   </versioning>
 </metadata>
