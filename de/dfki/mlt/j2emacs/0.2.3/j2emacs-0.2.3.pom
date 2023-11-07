@@ -12,14 +12,6 @@
 
   <inceptionYear>2009</inceptionYear>
 
-  <licenses>
-    <license>
-      <name>LGPL 3 or later</name>
-      <url>http://www.gnu.org/licenses/lgpl.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
   <properties>
     <encoding>UTF-8</encoding>
     <maven.compiler.source>11</maven.compiler.source>
