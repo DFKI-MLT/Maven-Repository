@@ -3,11 +3,12 @@
   <groupId>de.dfki.mlt</groupId>
   <artifactId>cplan</artifactId>
   <versioning>
-    <release>1.2.6</release>
+    <release>1.2.7</release>
     <versions>
       <version>1.2.5</version>
       <version>1.2.6</version>
+      <version>1.2.7</version>
     </versions>
-    <lastUpdated>20231107145607</lastUpdated>
+    <lastUpdated>20231205114215</lastUpdated>
   </versioning>
 </metadata>
