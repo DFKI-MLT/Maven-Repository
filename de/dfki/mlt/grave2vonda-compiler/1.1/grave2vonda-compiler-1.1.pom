@@ -44,7 +44,7 @@
         <version>2.5.3</version>
         <configuration>
           <finalName>Grave2Vonda</finalName>
-          <appendAssemblyId>false</appendAssemblyId>
+          <appendAssemblyId>true</appendAssemblyId>
           <archive>
             <manifest>
               <mainClass>de.dfki.mlt.g2v.Main</mainClass>
