@@ -1,0 +1,118 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>say.swing</groupId>
+  <artifactId>jfontchooser-project</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.7</version>
+  <name>JFontChooser</name>
+  <description>JFontChooser is a swing-based java component for font selection.</description>
+  <url>http://sourceforge.jp/projects/jfontchooser/</url>
+
+  <modules>
+    <module>jfontchooser</module>
+    <module>jfontchooser-sample</module>
+  </modules>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+	<!-- mvn compile -->
+	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-compiler-plugin</artifactId>
+	  <version>3.1</version>
+	  <configuration>
+	    <source>1.8</source>
+	    <target>1.8</target>
+	    <encoding>UTF-8</encoding>
+	  </configuration>
+	</plugin>
+
+	<!-- mvn package-->
+	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-jar-plugin</artifactId>
+	  <version>2.4</version>
+	</plugin>
+
+	<!-- mvn assembly:assembly -->
+	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-assembly-plugin</artifactId>
+	  <version>2.4</version>
+	  <configuration>
+	    <descriptorRefs>
+	      <!--
+		  <descriptorRef>jar-with-dependencies</descriptorRef>
+	      -->
+	      <descriptorRef>bin</descriptorRef>
+	      <descriptorRef>src</descriptorRef>
+	    </descriptorRefs>
+	  </configuration>
+	</plugin>
+
+	<!-- mvn exec:java -->
+	<plugin>
+	  <groupId>org.codehaus.mojo</groupId>
+	  <artifactId>exec-maven-plugin</artifactId>
+	  <version>1.2.1</version>
+	  <configuration>
+	    <keepAlive>false</keepAlive>
+	  </configuration>
+	</plugin>
+
+	<!-- mvn resources:resources -->
+	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-resources-plugin</artifactId>
+	  <version>2.6</version>
+	  <configuration>
+	    <encoding>UTF-8</encoding>
+	  </configuration>
+	</plugin>
+
+	<!-- mvn site -->
+	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-site-plugin</artifactId>
+	  <version>3.2</version>
+	  <configuration>
+	    <locales>en</locales>
+	    <inputEncoding>UTF-8</inputEncoding>
+	    <outputEncoding>UTF-8</outputEncoding>
+	  </configuration>
+	</plugin>
+
+      </plugins>
+
+    </pluginManagement>
+
+
+    <resources>
+      <resource>
+	<directory>src/main/resources</directory>
+	<filtering>true</filtering>
+	<includes>
+	  <include>**/*.properties</include>
+	</includes>
+      </resource>
+    </resources>
+  </build>
+
+  <distributionManagement>
+    <!-- for mvn site:deploy -->
+    <site>
+      <id>shell-sourceforge-jp</id>
+      <name>site on sourceforge.jp shell server</name>
+      <url>scp://shell.sourceforge.jp/home/groups/j/jf/jfontchooser/htdocs/site</url>
+    </site>
+    <!-- for mvn deploy -->
+    <repository>
+      <id>shell-sourceforge-jp</id>
+      <name>maven repository on sourceforge.jp shell server</name>
+      <url>scp://shell.sourceforge.jp/home/groups/j/jf/jfontchooser/htdocs/repository</url>
+    </repository>
+  </distributionManagement>
+
+</project>

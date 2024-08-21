@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>say.swing</groupId>
+  <artifactId>jfontchooser-sample</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.7</version>
+  <name>JFontChooser Sample</name>
+  <description>JFontChooser component sample program</description>
+  <url>http://maven.apache.org</url>
+
+  <parent>
+    <groupId>say.swing</groupId>
+    <artifactId>jfontchooser-project</artifactId>
+    <version>1.0.7</version>
+  </parent>
+
+  <properties>
+    <application.mainClass>say.swing.sample.JFontChooserSample</application.mainClass>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>say.swing</groupId>
+      <artifactId>jfontchooser</artifactId>
+      <version>${project.version}</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- mvn package-->
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-jar-plugin</artifactId>
+	<configuration>
+	  <archive>
+	    <manifest>
+	      <mainClass>${application.mainClass}</mainClass>
+	      <packageName>say.swing.sample</packageName>
+	      <addClasspath>true</addClasspath>
+	      <addExtensions>true</addExtensions>
+	      <classpathPrefix>lib</classpathPrefix>
+	    </manifest>
+	  </archive>
+	</configuration>
+      </plugin>
+
+      <!-- mvn assembly:assembly -->
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-assembly-plugin</artifactId>
+	<configuration>
+	  <descriptors>
+	    <descriptor>src/main/assembly/all-bin.xml</descriptor>
+	  </descriptors>
+	  <descriptorRefs>
+	    <descriptorRef>bin</descriptorRef>
+	    <descriptorRef>src</descriptorRef>
+	  </descriptorRefs>
+	</configuration>
+      </plugin>
+
+      <!-- mvn exec:java -->
+      <plugin>
+	<groupId>org.codehaus.mojo</groupId>
+	<artifactId>exec-maven-plugin</artifactId>
+	<configuration>
+	  <mainClass>${application.mainClass}</mainClass>
+	  <keepAlive>false</keepAlive>
+	</configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>
