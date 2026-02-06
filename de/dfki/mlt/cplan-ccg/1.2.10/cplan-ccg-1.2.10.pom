@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>cplan-ccg</artifactId>
+  <packaging>jar</packaging>
+
+  <parent>
+    <groupId>de.dfki.mlt</groupId>
+    <artifactId>cplan</artifactId>
+    <version>1.2.10</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>de.dfki.mlt</groupId>
+      <artifactId>cplan-core</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>de.dfki.mlt</groupId>
+      <artifactId>openccg</artifactId>
+      <version>[0.9.9,)</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+
+</project>
