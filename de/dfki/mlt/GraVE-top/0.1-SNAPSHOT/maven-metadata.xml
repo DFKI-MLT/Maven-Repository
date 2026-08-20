@@ -3,16 +3,16 @@
   <groupId>de.dfki.mlt</groupId>
   <artifactId>GraVE-top</artifactId>
   <versioning>
-    <lastUpdated>20240821120437</lastUpdated>
+    <lastUpdated>20260820194007</lastUpdated>
     <snapshot>
-      <timestamp>20240821.120437</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20260820.194007</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1-20240821.120437-5</value>
-        <updated>20240821120437</updated>
+        <value>0.1-20260820.194007-6</value>
+        <updated>20260820194007</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
