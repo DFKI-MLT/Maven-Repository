@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.dfki.mlt</groupId>
+  <artifactId>interrupt</artifactId>
+  <versioning>
+    <lastUpdated>20260820194111</lastUpdated>
+    <snapshot>
+      <timestamp>20260820.194111</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1-20260820.194111-1</value>
+        <updated>20260820194111</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1-20260820.194111-1</value>
+        <updated>20260820194111</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.1-SNAPSHOT</version>
+</metadata>

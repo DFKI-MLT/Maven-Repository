@@ -3,27 +3,27 @@
   <groupId>de.dfki.mlt</groupId>
   <artifactId>GraVE</artifactId>
   <versioning>
-    <lastUpdated>20240821120437</lastUpdated>
+    <lastUpdated>20260820194111</lastUpdated>
     <snapshot>
-      <timestamp>20240821.120437</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20260820.194111</timestamp>
+      <buildNumber>8</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1-20240821.120437-5</value>
-        <updated>20240821120437</updated>
+        <value>0.1-20260820.194111-7</value>
+        <updated>20260820194111</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1-20240821.120437-5</value>
-        <updated>20240821120437</updated>
+        <value>0.1-20260820.194111-7</value>
+        <updated>20260820194111</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1-20240821.120437-5</value>
-        <updated>20240821120437</updated>
+        <value>0.1-20260820.194111-7</value>
+        <updated>20260820194111</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
